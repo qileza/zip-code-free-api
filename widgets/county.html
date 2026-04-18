@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Free County Info Widget</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 600px; margin: 40px auto; padding: 0 16px; line-height: 1.5; color: #0f172a; }
+</style>
+</head>
+<body>
+<h1>Free County Info Card Widget</h1>
+<p>Server-rendered county card — name, FIPS, ZIP count, total population,
+and a scrollable list of sibling ZIPs. Derives the county from a ZIP
+(<code>?zip=90210</code>) or a FIPS (<code>?fips=06037</code>) code.</p>
+
+<iframe src="https://zipcodeandcounty.com/embed/county?zip=90210"
+        width="480" height="420"
+        style="border:0;max-width:100%"
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"
+        title="County info card by zipcodeandcounty.com"></iframe>
+
+<p>Full widget gallery: <a href="https://zipcodeandcounty.com/widgets">zipcodeandcounty.com/widgets</a></p>
+</body>
+</html>
