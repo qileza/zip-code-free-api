@@ -79,6 +79,7 @@ curl https://zipcodeandcounty.com/api/v1/zip/90210
 |---|---|
 | [`examples/`](./examples) | Copy-paste HTTP snippets in cURL, Node.js, TypeScript, Python, Go, Ruby, PHP, and React |
 | [`examples/mcp/`](./examples/mcp) | MCP server setup for Claude Desktop, Cursor, Zed, Windsurf |
+| [`skills/zipcodeandcounty/`](./skills/zipcodeandcounty) | Drop-in **Claude Code skill** — auto-installs the MCP server + slash commands (`/zip`, `/county`, `/distance`) |
 | [`widgets/`](./widgets) | Working HTML pages embedding the free iframe widgets |
 | [`data/`](./data) | Public-domain reference JSONs — state FIPS, state time zones, area-codes-by-state, sample ZIPs |
 
