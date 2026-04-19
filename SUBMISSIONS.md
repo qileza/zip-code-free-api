@@ -2,20 +2,49 @@
 
 ## Status (as of 2026-04-19)
 
-| Destination | Status | URL |
-|---|---|---|
-| jaw9c/awesome-remote-mcp-servers | ✅ PR open | https://github.com/jaw9c/awesome-remote-mcp-servers/pull/269 |
-| punkpeye/awesome-mcp-servers | ✅ PR open | https://github.com/punkpeye/awesome-mcp-servers/pull/5132 |
-| public-apis/public-apis | ✅ PR open | https://github.com/public-apis/public-apis/pull/5908 |
-| appcypher/awesome-mcp-servers | ❌ Blocked | Maintainer has PRs-from-forks disabled |
-| wong2/awesome-mcp-servers | ❌ Blocked | Maintainer has PRs disabled on the repo |
-| modelcontextprotocol/servers | ⏭ N/A | Policy changed; community entries redirected to MCP Registry |
-| MCP Registry (modelcontextprotocol/registry) | ⏳ Pending | Requires mcp-publisher CLI — no Windows binary yet |
-| APIs-guru/openapi-directory | ⏳ Pending | Requires YAML manifest + spec upload (manual) |
-| RapidAPI Hub | ⏳ Manual | Requires owner account |
-| Product Hunt | ⏳ Manual | Schedule for a launch day |
-| Data.gov | ⏳ Manual | Non-federal submission review ~2-4 weeks |
-| Show HN | ⏳ Manual | Needs original account posting for HN reputation |
+### Live PRs (all on lists with 10k+ stars)
+
+| Destination | Stars | Status | URL |
+|---|---:|---|---|
+| public-apis/public-apis | 425k | ✅ PR open | https://github.com/public-apis/public-apis/pull/5908 |
+| punkpeye/awesome-mcp-servers | 85k | ✅ PR open | https://github.com/punkpeye/awesome-mcp-servers/pull/5132 |
+| n0shake/Public-APIs | 23k | ✅ PR open | https://github.com/n0shake/Public-APIs/pull/736 |
+| public-api-lists/public-api-lists | 14k | ✅ PR open | https://github.com/public-api-lists/public-api-lists/pull/417 |
+| jaw9c/awesome-remote-mcp-servers | <10k | ✅ PR open | https://github.com/jaw9c/awesome-remote-mcp-servers/pull/269 |
+
+### Blocked
+
+| Destination | Stars | Why |
+|---|---:|---|
+| appcypher/awesome-mcp-servers | 5.4k | PRs from forks disabled |
+| wong2/awesome-mcp-servers | — | PRs disabled on the repo |
+| TonnyL/Awesome_APIs | 12.9k | Repo is archived (read-only) |
+
+### Manual-only (require human-form submission)
+
+| Destination | Stars | Why |
+|---|---:|---|
+| hesreallyhim/awesome-claude-code | 40k | Web form only, AI/CLI submissions banned. **Submit at:** https://github.com/hesreallyhim/awesome-claude-code/issues/new?template=recommend-resource.yml |
+| MCP Registry (modelcontextprotocol/registry) | — | Requires `mcp-publisher` CLI — no Windows binary; build from source on Linux/Mac |
+
+### Out of scope (wrong category)
+
+| Destination | Stars | Why |
+|---|---:|---|
+| Shubhamsaboo/awesome-llm-apps | 106k | Wants runnable apps, not hosted services |
+| ComposioHQ/awesome-claude-skills | 55k | Wants .skill files, not MCP servers |
+| VoltAgent/awesome-claude-code-subagents | 17.7k | Wants Claude subagent definitions, not MCP |
+| sickn33/antigravity-awesome-skills | 34k | Wants installable skills, not MCP |
+| github/awesome-copilot | 30k | Copilot-specific configs |
+
+### Not yet attempted (lower priority)
+
+| Destination | Stars | Notes |
+|---|---:|---|
+| RapidAPI Hub | — | Requires you to log in & upload OpenAPI |
+| Product Hunt | — | Schedule for a launch day |
+| Data.gov | — | Non-federal submission review ~2-4 weeks |
+| Show HN | — | Use your own HN account |
 
 ---
 
