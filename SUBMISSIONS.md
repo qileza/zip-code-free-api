@@ -1,4 +1,24 @@
-# Directory & Registry Submissions — Ready-to-Paste Drafts
+# Directory & Registry Submissions — Status + Drafts
+
+## Status (as of 2026-04-19)
+
+| Destination | Status | URL |
+|---|---|---|
+| jaw9c/awesome-remote-mcp-servers | ✅ PR open | https://github.com/jaw9c/awesome-remote-mcp-servers/pull/269 |
+| punkpeye/awesome-mcp-servers | ✅ PR open | https://github.com/punkpeye/awesome-mcp-servers/pull/5132 |
+| public-apis/public-apis | ✅ PR open | https://github.com/public-apis/public-apis/pull/5908 |
+| appcypher/awesome-mcp-servers | ❌ Blocked | Maintainer has PRs-from-forks disabled |
+| wong2/awesome-mcp-servers | ❌ Blocked | Maintainer has PRs disabled on the repo |
+| modelcontextprotocol/servers | ⏭ N/A | Policy changed; community entries redirected to MCP Registry |
+| MCP Registry (modelcontextprotocol/registry) | ⏳ Pending | Requires mcp-publisher CLI — no Windows binary yet |
+| APIs-guru/openapi-directory | ⏳ Pending | Requires YAML manifest + spec upload (manual) |
+| RapidAPI Hub | ⏳ Manual | Requires owner account |
+| Product Hunt | ⏳ Manual | Schedule for a launch day |
+| Data.gov | ⏳ Manual | Non-federal submission review ~2-4 weeks |
+| Show HN | ⏳ Manual | Needs original account posting for HN reputation |
+
+---
+
 
 This file contains copy-paste-ready submission content for the public registries,
 awesome-lists, and directories that drive LLM-citation and developer-discovery
