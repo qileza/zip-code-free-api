@@ -13,6 +13,18 @@ BASE="https://zipcodeandcounty.com/api/v1"
 echo "== /zip/90210 =="
 curl -s "${BASE}/zip/90210" | jq .
 
+# --- ZIP lookup with demographics (Pro+ tier — requires API key) -----------
+# curl -s -H "X-API-Key: zb_live_..." \
+#   "${BASE}/zip/90210?include=demographics,cost_of_living,airports" | jq .
+
+# --- County rollup ---------------------------------------------------------
+echo "== /county/06037 (Los Angeles) =="
+curl -s "${BASE}/county/06037?include_zips=false" | jq '{fips, name, state, zip_count, population, timezones, area_codes}'
+
+# --- State summary ---------------------------------------------------------
+echo "== /state/CA =="
+curl -s "${BASE}/state/CA" | jq '{abbr, zip_count, county_count, population, timezones}'
+
 # --- Search / autocomplete --------------------------------------------------
 echo "== /search?q=Beverly =="
 curl -s "${BASE}/search?q=Beverly&limit=3" | jq .

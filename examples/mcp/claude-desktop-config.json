@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "zipcodeandcounty": {
+      "type": "http",
+      "url": "https://zipcodeandcounty.com/api/mcp"
+    }
+  }
+}
